@@ -2,7 +2,7 @@
 calculadora.py
 Aluno: Tiburso Sirva
 Data: 02/05/2024
-Esta tarefa representa uma calculadora.....
+(EXEMPLO) Esta tarefa representa uma calculadora.....
 '''
 
 # Realiza a leitura da informacao
