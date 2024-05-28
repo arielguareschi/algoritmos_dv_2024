@@ -1,0 +1,35 @@
+valor_de_saque = float(input('Digite o valor que foi feito o saque'))
+
+
+if valor_de_saque >= 200:
+    n2 = valor_de_saque//200
+    valor_de_saque = valor_de_saque-(n2*200)
+    print(f'R$ 200={n2}')
+if valor_de_saque >= 100:
+    n2 = valor_de_saque//100
+    valor_de_saque = valor_de_saque-(n2*100)
+    print(f'R$ 100={n2}')
+if valor_de_saque >= 50:
+    n2 = valor_de_saque//50
+    valor_de_saque = valor_de_saque-(n2*50)
+    print(f'R$50={n2}')
+if valor_de_saque >= 20:
+    n2 = valor_de_saque//20
+    valor_de_saque = valor_de_saque-(n2*20)
+    print(f'R$ 20={n2}')
+if valor_de_saque >= 10:
+    n2 = valor_de_saque//10
+    valor_de_saque = valor_de_saque-(n2*10)
+    print(f'R$ 10={n2}')
+if valor_de_saque >= 5:
+    n2 = valor_de_saque//5
+    valor_de_saque = valor_de_saque-(n2*5)
+    print(f'R$ 5={n2}')
+if valor_de_saque >= 2:
+    n2 = valor_de_saque//2
+    valor_de_saque = valor_de_saque-(n2*2)
+    print(f'R$ 2={n2}')
+if valor_de_saque >= 1:
+    n2 = valor_de_saque//1
+    valor_de_saque = valor_de_saque-(n2*1)
+    print(f'R$ 1={n2}')
